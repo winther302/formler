@@ -4,7 +4,7 @@ import sys
 def help():
     print("Du har følgende funktioner at bruge:")
     print("ki_andele, skriv \"formler ki_andele 0.89 129\" hvor første tal er andel og andet er stikprøve antal(n)\n")
-    print("ki_avg skriv \"formler ki_avg 6.61 0.95 1400 \" hvor 1. tal er andel, 2. er standardafvigelse og 3. er fejlmargin\n")
+    print("ki_avg skriv \"formler ki_avg 6.61 0.95 1400 \" hvor 1. tal er andel, 2. er standardafvigelse og 3. er N\n")
     print("n_endele skriv \"formler n_andele 0.043 1.96 0.022\" hvor 1. tal er gennemsnit, 2. tal er standardafviglese og 3. tal er N")
 
 def ki_avg(u, q, n):
